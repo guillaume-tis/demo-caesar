@@ -21,7 +21,7 @@ int absolute_int(int x)
 
 char *caesar_encrypt(char *str, int shift)
 {
-    int abs_shift = absolute_int(shift);
+    int abs_shift = absolute_int(shift)
     int i = 0;
     char *buf = (char *)malloc(33);
 
